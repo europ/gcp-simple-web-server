@@ -6,6 +6,7 @@ Deploy simple web server provided by [nginx](https://www.nginx.com/) in [debian 
 
     1. [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
         * authenticate yourself
+        * create a project
     1. [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
 1. environment configuration
