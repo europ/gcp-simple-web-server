@@ -2,12 +2,23 @@
 
 Deploy simple web server provided by [nginx](https://www.nginx.com/) in [debian 10](https://www.debian.org/index.html) to [google cloud platform](https://cloud.google.com/) using [terraform](https://www.terraform.io/).
 
+##### Deployed Infrastructure
+
+![infrastructure.png](.other/yEd/infrastructure.png)
+
+##### Dependency Graph
+
+![graph.svg](.other/graph.svg)
+
+### Setup
+
 1. prerequisites installation
 
-    1. [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
-        * authenticate yourself
+    1. [Google Cloud Platform](https://console.cloud.google.com/)
         * create a project
-    1. [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+    1. install [Google Cloud SDK](https://cloud.google.com/sdk/docs/install)
+        * authenticate yourself
+    1. install [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 
 1. environment configuration
 
